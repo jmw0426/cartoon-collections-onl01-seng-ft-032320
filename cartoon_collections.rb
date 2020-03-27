@@ -16,11 +16,11 @@ end
 
 
 def long_planeteer_calls(array)
-  i = 5
-  if array.count {|x| x < i}
-    return false 
-  else array.count(i)
-    return true
+  i > 4
+  if array.count(i)
+    return true 
+  else array.count(!i)
+    return false
   end 
 
 end
