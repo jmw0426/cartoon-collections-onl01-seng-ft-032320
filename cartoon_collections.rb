@@ -16,8 +16,8 @@ end
 
 
 def long_planeteer_calls(array)
-  i = i >= 5
-  if array.count(i)
+  
+  if array.count >= 5
     return true 
   
   end 
