@@ -16,7 +16,7 @@ end
 
 
 def long_planeteer_calls(array)
-  i > 4
+  i >= 4
   if array.count(i)
     return true 
   
