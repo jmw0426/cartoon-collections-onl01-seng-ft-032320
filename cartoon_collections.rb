@@ -19,8 +19,9 @@ def long_planeteer_calls(array)
   i = 5
   if array.count |5| 5 >= i
     return true 
+  else array.count |5| 5 >= i
   end 
-  false
+
 end
 
 def find_the_cheese# code an argument here
