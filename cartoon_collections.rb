@@ -9,8 +9,10 @@ end
   def summon_captain_planet(name)
    names = []
    names.map(&:capitalize)
-     names << names
-     names.map { |word| word + "!"}
+     name << names
+     names.map |word| word + "!"
+     puts "#{word}"
+end
 end
 
 def long_planeteer_calls# code an argument here
