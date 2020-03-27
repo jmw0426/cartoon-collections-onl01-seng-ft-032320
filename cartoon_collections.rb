@@ -6,10 +6,11 @@ end
 
 
 
-  def summon_captain_planet(name)
+  def summon_captain_planet(array)
    names = []
-   name.map(&:capitalize)
-     names << name
+   name.map_with_index = caps
+   caps(&:capitalize)
+     names << array
      names.map {|word| word + "!"}
      
 end
