@@ -16,11 +16,12 @@ end
 
 
 def long_planeteer_calls(array)
-  if array.length >= 4 
+  i = 4
+  if array.length >= i 
     return true 
-  elsif array.length == 4
+  elsif array.length == i - 0
     return false
-  else array.length < 4
+  else array.length < i
     return false 
   end  
 end
