@@ -10,7 +10,7 @@ end
    names = []
    names.map(&:capitalize)
      names << names
-     names.map { |word| “#{word}” }
+     names.map { |word| word + "!"}
 end
 
 def long_planeteer_calls# code an argument here
