@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   i = 5
   if array.count(i) 
     return true 
-  else array.count |x| x < 5 
+  else array.count {|x| x < 5} 
     return  false
   end  
 end
