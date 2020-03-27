@@ -11,7 +11,7 @@ end
    name.map(&:capitalize)
      names << name
      names.map {|word| word + "!"}
-     names
+     
 end
 
 
