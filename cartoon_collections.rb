@@ -10,7 +10,7 @@ end
    names = []
    names.map(&:capitalize)
      names << name
-     names.map |word| word + "!"
+     names.map {|word| word + "!"}
      names
 end
 
