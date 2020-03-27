@@ -29,7 +29,7 @@ end
 def find_the_cheese(array)
   
   if array.include?("cheddar"||"gouda"||"camembert")
-    return array.include? 
+    return array.include?("cheddar"||"gouda"||"camembert")
   else 
     return nil
   end
