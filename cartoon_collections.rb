@@ -11,7 +11,7 @@ def summon_captain_planet(array)
 
     array2 << name.capitalize
   end
- array
+ array2
 end
 
 
