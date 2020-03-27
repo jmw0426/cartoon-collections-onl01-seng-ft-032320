@@ -17,9 +17,9 @@ end
 
 def long_planeteer_calls(array)
   i = 4
-  if array.count > i
+  if array.count(1) >= i + 1
     return true 
-  else array.each_with_index do array.count == !i + 1
+  else array.count(1) == !i + 1
     return  false
   end  
 end
