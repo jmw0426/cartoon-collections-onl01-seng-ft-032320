@@ -16,10 +16,10 @@ end
 
 
 def long_planeteer_calls(array)
-  i = 5
-  if array.count(i) 
+  i = 4
+  if array.count(i + 1) 
     return true 
-  else array.count(-i)
+  else array.count(-=i)
     return  false
   end  
 end
